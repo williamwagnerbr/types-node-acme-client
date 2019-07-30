@@ -1,0 +1,37 @@
+{
+  "name": "@types/acme-client",
+  "version": "0.1.0",
+  "description": "Typescript Types for NodeJs ACME Client",
+  "main": "bin/index.js",
+  "types": "bin/index.d.ts",
+  "scripts": {
+    "build": "tsc -b --declaration",
+    "start": "tsc -w --declaration"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/williamwagnerbr/types-node-acme-client.git"
+  },
+  "keywords": [
+    "acme",
+    "client",
+    "letsencrypt",
+    "aws",
+    "cloudflare",
+    "dns",
+    "http"
+  ],
+  "author": "William Wagner <william.wagner.br@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/williamwagnerbr/types-node-acme-client/issues"
+  },
+  "homepage": "https://github.com/williamwagnerbr/types-node-acme-client#readme",
+  "dependencies": {
+    "acme-client": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^12.6.8",
+    "typescript": "^3.5.3"
+  }
+}
