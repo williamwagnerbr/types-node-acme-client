@@ -1,6 +1,6 @@
 {
-  "name": "@types/acme-client",
-  "version": "0.1.0",
+  "name": "types-acme-client",
+  "version": "0.1.8",
   "description": "Typescript Types for NodeJs ACME Client",
   "main": "bin/index.js",
   "types": "bin/index.d.ts",
