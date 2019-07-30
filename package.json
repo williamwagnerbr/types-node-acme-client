@@ -5,7 +5,7 @@
   "main": "bin/index.js",
   "types": "bin/index.d.ts",
   "scripts": {
-    "build": "tsc -b --declaration",
+    "build": "tsc --build",
     "start": "tsc -w --declaration"
   },
   "repository": {
@@ -28,10 +28,8 @@
   },
   "homepage": "https://github.com/williamwagnerbr/types-node-acme-client#readme",
   "dependencies": {
-    "acme-client": "^3.0.0"
-  },
-  "devDependencies": {
     "@types/node": "^12.6.8",
+    "acme-client": "^3.0.0",
     "typescript": "^3.5.3"
   }
 }
