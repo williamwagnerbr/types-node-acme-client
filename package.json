@@ -29,7 +29,7 @@
   "homepage": "https://github.com/williamwagnerbr/types-node-acme-client#readme",
   "dependencies": {
     "@types/node": "^12.6.8",
-    "acme-client": "^3.0.0",
+    "acme-client": "^5.0.0",
     "typescript": "^3.5.3"
   }
 }
